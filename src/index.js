@@ -7,7 +7,6 @@ import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 const API_KEY = 'AIzaSyDHtTLKyJkFxrQp20ChR3f_Mv5Qkdqdvq0';
 
-// Create a new component. This component should produce some HTML
 class App extends Component {
   constructor(props) {
     super(props);
@@ -44,7 +43,4 @@ class App extends Component {
   }
 }
 
-// Render the HTML and send it to the DOM
-
-// instance of the class, dom element
 ReactDOM.render(<App />, document.querySelector('.container'));
